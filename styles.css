@@ -1,0 +1,138 @@
+.encabezado-derecho{
+  padding-top: 5px;
+  text-align:center;
+}
+
+
+
+.encabezado{
+    background-color: #000000;
+    padding: 10px;
+    border: solid 2px white;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.presentacion{
+    background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+
+
+.encabezado-derecho h1{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+
+.encabezado-derecho-mobil h1{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+
+
+
+.intro-aboutme h1{
+    font-size: 50px;
+    text-align: right;
+}
+
+
+
+.encabezado-izquierdo button{
+    margin: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.encabezado-izquierdo{
+    text-align: right;
+    padding-top: 5px;
+}
+
+.separador-imagen{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.titulo-seccion-estudios{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+.card-header h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card li{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.mis-gustos h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mis-gustos li,td{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.entretenimiento{
+    padding-top:40px;
+}
+
+.hobbies{
+    padding-top:40px;
+}
+
+.gustos-musicales{
+    padding-top: 40px;
+}
+
+.mis-gustos .tier{
+    text-align: center;
+}
+
+.entretenimiento .juegos{
+    list-style-type: none;
+}
+
+.mis-gustos{
+    padding-top: 60px;
+}
+
+.titulo-seccion-mis-gustos{
+    background-image: url("https://i.pinimg.com/1200x/e6/75/28/e67528737640d9f8b66625863e7a8b6b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.piePagina h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
