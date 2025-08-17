@@ -1,0 +1,54 @@
+/* Fondo general frutiger-aero */
+body {
+  background: linear-gradient(135deg, #00eaff, #0077ff, #00ffbb);
+  background-attachment: fixed;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* NAVBAR */
+.glassy-navbar {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://i.pinimg.com/originals/19/b7/1c/19b71cd5e12c4b216ed97df7d38cf256.jpg') no-repeat center center/cover;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top:0; left:0; width:100%; height:100%;
+  background: rgba(0,0,0,0.4);
+}
+.hero div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Tarjetas y fondos translúcidos */
+.glassy-card, .glassy-table, .glassy-footer {
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  color: #fff;
+}
+
+/* Botones futuristas */
+.glassy-btn {
+  background: rgba(255,255,255,0.15);
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.glassy-btn:hover {
+  background: rgba(255,255,255,0.3);
+  transform: scale(1.05);
+}
+
+/* Secciones */
+.bg-glass {
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+}
